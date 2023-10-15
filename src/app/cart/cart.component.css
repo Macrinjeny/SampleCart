@@ -1,0 +1,126 @@
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  margin:0 auto;
+}
+
+
+header {
+  display: flex;
+  width: 97%;
+  padding: 11px;
+  align-items: center;
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+  border-radius: 19px;
+  margin-right: 0%;
+}
+
+
+header i {
+  font-size: 39px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-left: 150px;
+}
+
+/* .cart-content {
+  padding: 20px;
+  overflow-y: auto;
+} */
+
+.white-screen {
+  background-color: #fff;
+  height: 100vh;
+}
+.cart-details{
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+}
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed black;
+  /* width: 97%; */
+  padding: 5px;
+}
+.cart-item h1{
+  margin-left: 20px;
+  font-size: 30px;
+}
+.cart-item p{
+  /* margin-right: 20px; */
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.cart1{
+  font-size: 20px;
+  margin-left: 15px;
+}
+.wrapper {
+
+  color: #F33A6A;
+  background-color: #FFF;
+  padding: 5px 5px;
+  border-radius: 9px;
+  cursor: pointer; 
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+  padding-top: 5px;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 209px; 
+  width: 129px;
+  text-align: center;
+}
+
+.plusminus {
+  width: 20%;
+  background: white;
+  border: none;
+  font-size: 29px;
+  color: #F33A6A;
+  padding-left: 1px;
+}
+
+.num {
+  height: 100%;
+  width: 39%;
+  border: none;
+  font-size: 30px;
+  color: #F33A6A;
+  padding-left: 25px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -webkit-appearance: textfield !important;
+  -moz-appearance: textfield !important;
+  appearance: textfield !important;
+} 
+@media screen and (min-width: 520px){
+  .cart{
+      display: none;
+  }
+}
+
+.add{
+  display: flex;
+}
+.add p{
+   font-size: 20px;
+   margin-left: 20px;
+}
+.add i{
+    margin-left: 300px;
+    margin-top: 23px;
+    font-size: 25px;
+}
